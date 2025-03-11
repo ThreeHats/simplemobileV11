@@ -3,13 +3,13 @@
 	"title": "Simple-Mobile",
 	"description": "Adds mobile support",
 	"version": "0.2.6",
-	"author": "JustAnotherIdea",
+	"author": "ThreeHats",
 	"esmodules": ["mobile.js"],
 	"styles": ["mobile.css"],
 	 "socket": true,
-    "url": "https://github.com/JustAnotherIdea/simplemobileV11/blob/master",
-    "manifest": "https://raw.githubusercontent.com/JustAnotherIdea/simplemobileV11/master/module.json",
-    "download": "https://github.com/JustAnotherIdea/simplemobileV11/raw/master/simplemobilev11.zip",
+    "url": "https://github.com/ThreeHats/simplemobileV11/blob/master",
+    "manifest": "https://raw.githubusercontent.com/ThreeHats/simplemobileV11/master/module.json",
+    "download": "https://github.com/ThreeHats/simplemobileV11/raw/master/simplemobilev11.zip",
 	"minimumCoreVersion": "0.8.9",
 	"compatibleCoreVersion": "11.315"
 }

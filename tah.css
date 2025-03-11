@@ -1,0 +1,155 @@
+div#tah-groups {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+
+.tah-tab-group {
+    position: absolute !important;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50%;
+    left: calc(50% - 50px);
+    transform-origin: 0 0;
+    transition: step-start;
+}
+
+.tah-actions {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* overflow: visible; */
+}
+
+.tah-action {
+    position: absolute !important;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    top: 50%;
+    left: calc(50% - 50px);
+    transform-origin: 0 0;
+    transition: step-start;
+}
+
+.tah-list-group {
+    display: unset !important;
+    overflow: hidden;
+}
+
+.tah-tab-group, .tah-group {
+    display: unset !important;
+}
+
+.tah-groups {
+    overflow-y: unset !important;
+}
+
+
+
+
+/* tah.css */
+
+
+
+
+#tah-groups {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.tah-tab-group {
+    position: absolute !important;
+  	border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: calc(50% - 50px);
+    transform-origin: 0 0;
+    transition: step-start;
+}
+
+.tah-tab-group.hover {
+   background: white;
+}
+
+.tah-group {
+  position: unset !important;
+}
+
+.tah-list-groups {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  	transform: translate(-332px, 386px);
+    /* overflow: visible; */
+}
+
+.tah-action {
+    position: absolute !important;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: calc(50% - 50px);
+    transform-origin: 0 0;
+    transition: step-start;
+}
+
+.tah-groups {
+    overflow-y: unset !important;
+}
+
+.tah-hidden {
+    display: unset !important;
+}
+
+.tah-subtitle {
+  display: none;
+}
+
+div#token-action-hud {
+    top: unset !important;
+    left: -50px !important;
+    bottom: -50px;
+}
+
+button.tah-group-button {
+    /* width: 70px; */
+    height: 100% !important;
+    border-radius: 50% !important;
+    /* text-align: start; */
+}
+
+span.tah-button-content {
+    /* text-align: center; */
+    padding: 4px;
+}
+
+button.tah-action-button {
+    border-radius: 50%;
+    height: 100%;
+}
+
+span.tah-action-button-content {
+    overflow: visible;
+    width: max-content;
+}
+
+.tah-button-image-wrapper {
+    padding-left: 8px;
+}
+
+div#tah-buttons {
+    display: none !important;
+}
+
+div#tah-character-name {
+    display: none !important;
+}
